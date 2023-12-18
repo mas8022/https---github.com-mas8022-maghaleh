@@ -1,0 +1,218 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.navbar__left {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  height: 100%;
+}
+.navbar__right img {
+  border-radius: 10px;
+  width: 6rem;
+  height: 6rem;
+  padding: 1rem;
+  background: var(--first-color);
+}
+.searchBar {
+  width: 32vw;
+  height: 5rem;
+  border: 1px solid var(--text2-color);
+  border-radius: 10px;
+  padding-right: 1.5rem;
+  display: flex;
+  align-items: center;
+  background: var(--bg2-color);
+}
+.searchBar input {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  padding: 2rem;
+  font-size: 1.7rem;
+  background: var(--bg2-color);
+  border: 0px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+.searchBar input:focus {
+  outline: 0px;
+}
+.searchBar input {
+  height: 100%;
+  border-radius: 10px;
+  padding: 2rem;
+}
+.navbar__left {
+  display: flex;
+  gap: 2rem;
+}
+.navbar__left__icon {
+  color: var(--text-color);
+  cursor: pointer;
+  transition: all linear 0.1s !important;
+  width: 4rem;
+  height: 4rem;
+}
+.navbar__left__icon:active {
+  background: var(--second-color);
+  border-radius: 50%;
+  padding: 0.5rem;
+  scale: 96%;
+}
+.loginBtn {
+  padding: 1.5rem 2.1rem;
+  background: var(--second-color);
+  color: var(--fifth-color);
+  font-size: 1.8rem;
+  border-radius: 10px;
+  transition: all linear 0.2s;
+  cursor: pointer;
+}
+.loginBtn:hover {
+  background: var(--fifth-color);
+  color: var(--bg-color);
+}
+.loginBtn:active {
+  scale: 90%;
+}
+.navbar__right {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+.category {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.category span {
+  font-size: 1.8rem;
+}
+.searchBar__icon {
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--text2-color);
+  transition: all linear 0.1s !important;
+}
+.searchBar__icon:active {
+  scale: 90%;
+  color: var(--second-color);
+}
+.loginBtnMobile {
+  width: 5rem;
+  height: 5rem;
+  color: var(--second-color);
+  border: 3px var(--second-color);
+  transition: all linear 0.1s !important;
+  display: none !important;
+}
+.loginBtnMobile:active {
+  scale: 90%;
+}
+.navbar__right__ham {
+  display: none !important;
+  transition: all linear 0.3s !important;
+}
+.navbar__right__ham :active {
+  scale: 90%;
+}
+.sidebar {
+  padding: 2rem;
+  background: var(--bg2-color);
+  width: 65vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  direction: ltr;
+  flex-direction: column;
+  gap: 5rem;
+  display: flex;
+}
+.deActiveSidebar {
+  right: -65vw;
+  transition: all ease-in 0.5s;
+}
+.sidebarActive {
+  right: 0;
+  transition: all ease-out 0.5s;
+}
+
+.sidebar img {
+  width: 3rem;
+  height: 3rem;
+}
+.profileSidebar {
+  width: 100%;
+  height: 40vh;
+  border-radius: 20px;
+  border: dashed var(--second-color) 3px;
+  color: var(--third-color);
+}
+.profileSidebar__emptyProfile {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1.5rem;
+}
+.sidebar__menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  direction: rtl;
+  gap: 1rem;
+}
+.sidebar__menu__item {
+  font-size: 2rem;
+  color: var(--text-color);
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.sidebar__existIcon {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 3rem;
+}
+.companyPhoneNumber {
+  border-top: 1px var(--text-color) solid;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  padding: 3rem 0 2rem 0;
+  font-size: 1.8rem;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.companyPhoneNumber img {
+  height: 5rem;
+  width: 5rem;
+}
+.navbar__category__icon {
+  width: 4rem !important;
+  height: 4rem !important;
+  background: var(--bg2-color) !important;
+}
+.navbar__contact__icon {
+  width: 3.4rem;
+  height: 3.4rem;
+  transition: all linear 0.1s !important;
+  cursor: pointer;
+}
+.navbar__contact__icon:active {
+  scale: 70%;
+}
