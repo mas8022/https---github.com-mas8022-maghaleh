@@ -60,15 +60,15 @@
 .navbar__left__icon {
   color: var(--text-color);
   cursor: pointer;
-  transition: all linear 0.1s !important;
-  width: 4rem;
-  height: 4rem;
+  transition: all linear 0.15s !important;
+  width: 5rem;
+  height: 5rem;border-radius: 50%;
+  padding: 0.5rem;
 }
 .navbar__left__icon:active {
   background: var(--second-color);
-  border-radius: 50%;
-  padding: 0.5rem;
-  scale: 96%;
+  
+  scale: 98%;
 }
 .loginBtn {
   padding: 1.5rem 2.1rem;
@@ -86,7 +86,7 @@
   color: var(--bg-color);
 }
 .loginBtn:active {
-  scale: 90%;
+  scale: 98%;
 }
 .navbar__right {
   display: flex;
@@ -110,7 +110,7 @@
   transition: all linear 0.1s !important;
 }
 .searchBar__icon:active {
-  scale: 90%;
+  scale: 98%;
   color: var(--second-color);
 }
 .loginBtnMobile {
@@ -135,7 +135,7 @@
   padding: 2rem;
   background: var(--bg2-color);
   width: 65vw;
-  height: 100vh;
+  height: 76rem;
   position: fixed;
   top: 0;
   direction: ltr;
@@ -218,7 +218,7 @@
   cursor: pointer;
 }
 .navbar__contact__icon:active {
-  scale: 70%;
+  scale: 98%;
 }
 
 .sidebar__menu__item {
